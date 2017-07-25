@@ -3,7 +3,7 @@ body {
   overflow: hidden;
   padding: 0;
   margin: 0;
-  background: black;
+  background: #f8e12e;
 }
 
 p {
@@ -20,8 +20,8 @@ canvas {
 }
 
 .centerpiece {
-  max-height: 300px;
-  max-width: 300px;
+  max-height: 350px;
+  max-width: 350px;
 
 	position: absolute;
 	top:0;
@@ -35,115 +35,21 @@ canvas {
 }
 
 .centerpiece .text {
-  color: #ffe66d;
+  font-size: 22px;
   padding-bottom: 10px;
 }
 
+.text a {
+  color: black;
+  text-decoration: none;
+}
+
+.text a:hover {
+  color: grey;
+  text-decoration: none;
+}
+
 img.logo {
-  width: 80%;
   height: 80%;
+  width: 80%;
 }
-
-.bottom {
-  position: absolute;
-  color: #fff;
-}
-
-.bottom {
-  bottom: 1em;
-  width: 100%;
-  text-align: center;
-}
-
-/* Avatar */
-
-.circular {
-    width: 200px;
-    height: 200px;
-
-    border-radius: 100px;
-    -webkit-border-radius: 100px;
-    -moz-border-radius: 100px;
-
-    box-shadow: 0px 0px 25px yellow;
-    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
-    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
-
-    background: url(https://i1.sndcdn.com/avatars-000139777593-au1386-t500x500.jpg) no-repeat;
-    background-size: 200px 200px;
-}
-
-.circular img {
-    opacity: 0;
-    filter: alpha(opacity=0);
-}
-
-/* Links */
-
-.links {
-    text-align: center;
-    padding: 0px 0px;
-}
-
-.links a {
-    color: white;
-}
-
-.links i {
-    padding: 0px 10px; 
-}
-
-.links i:hover {
-    color: gray;
-}
-
-/* Name */
-
-.name {
-    padding: 10px 0px ;
-    text-align: center;
-}
-
-.letter {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 300;
-    font-size: 55px;
-    color: #ffffff;
-    
-    /* trippy effect discovered by accident */
-    text-shadow: -5px 0 black, 0 5px black, 5px 0 black, 0 -5px black;
-}
-
-.name p {
-    color: #ffffff;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 300;
-    font-size: 20px;
-    padding-top: 10px;
-    margin-bottom: 0px;
-
-    /* text bordering */
-    text-shadow:
-        -1px -1px 0 #000,  
-         1px -1px 0 #000,
-        -1px  1px 0 #000,
-         1px  1px 0 #000;
-}
-
-.name p a {
-    text-decoration: none;
-    color: #ffffff;
-}
-
-.name p a:hover {
-    color: gray;
-}
-
-.links p {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 300;
-    font-size: 15px;
-    padding-top: 10px;
-    margin-bottom: 0px;
-}
-
