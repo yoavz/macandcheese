@@ -9,8 +9,8 @@ window.onload = function(){
     var emoji_height = 30;
     var emoji_width = 30;
     var emoji_path = emoji_list[Math.floor(Math.random()*emoji_list.length)];
-    var num_horizontal = 8;
-    var num_vertical = 6; 
+    var num_horizontal = screen.width < 450.0 ? 6 : 8;
+    var num_vertical = screen.height < 750.0 ? 5 : 6; 
     var fall_speed = 1; 
     var spin_speed = Math.PI / 100.0;
 
