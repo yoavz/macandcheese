@@ -67,6 +67,11 @@ img.logo {
 }
 
 #contact-links a {
+  color: grey;
   padding-left: 10px;
   padding-right: 10px;
+}
+
+#contact-links a:hover {
+  color: darkgrey;
 }
