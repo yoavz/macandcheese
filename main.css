@@ -37,7 +37,6 @@ canvas {
 .centerpiece .text {
   font-size: 22px;
   padding-bottom: 10px;
-  background: #f8e12e;
 }
 
 .text a {
@@ -64,6 +63,7 @@ img.logo {
   -moz-transition: top 1s;
   -o-transition: top 1s;
   transition: top 1s;
+  display: none;
 }
 
 #contact-links a {
