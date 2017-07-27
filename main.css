@@ -37,11 +37,13 @@ canvas {
 .centerpiece .text {
   font-size: 22px;
   padding-bottom: 10px;
+  background: #f8e12e;
 }
 
 .text a {
   color: black;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .text a:hover {
@@ -52,4 +54,19 @@ canvas {
 img.logo {
   height: 80%;
   width: 80%;
+}
+
+#contact-links {
+  position: relative;
+  top: -40px;
+  z-index: -1;
+  -webkit-transition: top 1s;
+  -moz-transition: top 1s;
+  -o-transition: top 1s;
+  transition: top 1s;
+}
+
+#contact-links a {
+  padding-left: 10px;
+  padding-right: 10px;
 }
