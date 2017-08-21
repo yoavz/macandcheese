@@ -79,7 +79,15 @@ img.logo {
 /* RSVP */
 
 #rsvp-msg {
-  position: relative;
+  color: black;
   font-size: 22px;
   top: 0;
+}
+
+#rsvp-msg a {
+  color: grey;
+}
+
+#rsvp-msg a:hover {
+  color: darkgrey;
 }
