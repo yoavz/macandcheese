@@ -75,3 +75,11 @@ img.logo {
 #contact-links a:hover {
   color: darkgrey;
 }
+
+/* RSVP */
+
+#rsvp-msg {
+  position: relative;
+  font-size: 22px;
+  top: 0;
+}
