@@ -29,6 +29,13 @@ canvas {
   max-width: 350px;
 }
 
+@media (min-width:641px) {
+  .rsvp {
+    max-height: 450px;
+    max-width: 450px;
+  }
+}
+
 .centerpiece {
 	position: absolute;
 	top:0;
