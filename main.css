@@ -99,7 +99,7 @@ img.rsvp-graphics {
 #rsvp-msg {
   color: black;
   font-size: 22px;
-  top: 0;
+  padding-top: 10px;
 }
 
 #rsvp-msg a {
