@@ -19,10 +19,24 @@ canvas {
   z-index: 0;
 }
 
-.centerpiece {
+.main {
   max-height: 350px;
   max-width: 350px;
+}
 
+.rsvp {
+  max-height: 350px;
+  max-width: 350px;
+}
+
+@media (min-width:641px) {
+  .rsvp {
+    max-height: 450px;
+    max-width: 450px;
+  }
+}
+
+.centerpiece {
 	position: absolute;
 	top:0;
 	bottom: 0;
@@ -55,6 +69,10 @@ img.logo {
   width: 80%;
 }
 
+img.rsvp-graphics {
+  width: 100%;
+}
+
 #contact-links {
   position: relative;
   top: -40px;
@@ -81,7 +99,7 @@ img.logo {
 #rsvp-msg {
   color: black;
   font-size: 22px;
-  top: 0;
+  padding-top: 10px;
 }
 
 #rsvp-msg a {
