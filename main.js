@@ -12,12 +12,4 @@ $("#contact-button").on('click', function(){
         $("#contact-links").css({"top": 0});
     }
 });
-
-// Try deep-link, back up to href link if that fails
-$('a.intent').on('click', function (event) {
-    document.location($(this).data('scheme'));
-    setTimeout(function () {
-      document.location($(this).attr(href)); 
-    }, 100);
-});
 })();
