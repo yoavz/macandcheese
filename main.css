@@ -27,6 +27,19 @@ canvas {
   padding-top: 50px;
 }
 
+.links-row {
+	padding-top: 20px;
+}
+
+.links-row a {
+	color: black;
+	cursor: pointer;
+}
+
+.links-row a:hover {
+	color: grey;
+}
+
 .pic-grid-cell {
   text-align: center;
 }
@@ -51,22 +64,6 @@ img.grid {
   }
 }
 
-.text {
-  font-size: 22px;
-  text-align: center;
-  padding-bottom: 10px;
-}
-
-.text a {
-  color: black;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-.text a:hover {
-  color: grey;
-  text-decoration: none;
-}
 
 img.rsvp-graphics {
   width: 100%;
