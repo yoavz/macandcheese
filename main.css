@@ -1,6 +1,6 @@
 body {
   font-family: 'Zilla Slab', serif;
-  overflow: hidden;
+  text-align: center;
   padding: 0;
   margin: 0;
   background: #f8e12e;
@@ -19,9 +19,24 @@ canvas {
   z-index: 0;
 }
 
-.main {
-  max-height: 350px;
-  max-width: 350px;
+.content {
+  overflow-y: scroll;
+}
+
+.top-grid-row {
+  padding-top: 50px;
+}
+
+.pic-grid-cell {
+  text-align: center;
+}
+
+img.logo {
+  width: 100%;
+}
+
+img.grid {
+  width: 70%;
 }
 
 .rsvp {
@@ -36,20 +51,9 @@ canvas {
   }
 }
 
-.centerpiece {
-	position: absolute;
-	top:0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-  z-index: 1;
-	
-	margin: auto;
-  text-align: center;
-}
-
-.centerpiece .text {
+.text {
   font-size: 22px;
+  text-align: center;
   padding-bottom: 10px;
 }
 
@@ -62,11 +66,6 @@ canvas {
 .text a:hover {
   color: grey;
   text-decoration: none;
-}
-
-img.logo {
-  height: 80%;
-  width: 80%;
 }
 
 img.rsvp-graphics {

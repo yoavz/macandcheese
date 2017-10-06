@@ -1,12 +1,10 @@
 window.onload = function(){
-    // yoavz favorite emojis
     var emoji_map = {
-        "aubergine": "aubergine.png",
-        "grape": "grapes.png",
+        "mac" : "mac.png"
     };
     var emoji_list = Object.keys(emoji_map).map(key => emoji_map[key]);
 
-    var emoji_height = 30;
+    var emoji_height = 51.96;
     var emoji_width = 30;
     var emoji_path = emoji_list[Math.floor(Math.random()*emoji_list.length)];
     var num_horizontal = screen.width < 450.0 ? 6 : 8;
