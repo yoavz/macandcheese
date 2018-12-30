@@ -1,6 +1,6 @@
 window.onload = function(){
     var emoji_map = {
-        "mac" : "mac.png"
+        "mac" : "images/mac.png"
     };
     var emoji_list = Object.keys(emoji_map).map(key => emoji_map[key]);
 

@@ -2614,3 +2614,13 @@
 			}
 
 		}
+
+/* Falling macs */
+
+canvas {
+  /* click-through */
+  pointer-events: none;
+  position: absolute;
+  display: block;
+  z-index: -1;
+}
