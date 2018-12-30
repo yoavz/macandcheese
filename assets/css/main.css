@@ -27,6 +27,11 @@
 		line-height: 1;
 	}
 
+  p {
+    margin-bottom: 0.25em;
+    margin-top: 0.25em;
+  }
+
 	ol, ul {
 		list-style: none;
 	}
